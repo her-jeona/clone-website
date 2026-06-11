@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePass - Movie Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="logo">Cine<span>Pass</span></div>
+            </div>
+            <div class="nav-center">
+                <div class="search-box">
+                    <span class="search-icon">&#128269;</span>
+                    <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities">
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="location-dropdown">
+                    <span class="loc-icon">&#128204;</span>
+                    <select name="location" id="location">
+                        <option value="mumbai">Mumbai</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="bengaluru">Bengaluru</option>
+                        <option value="hyderabad">Hyderabad</option>
+                    </select>
+                </div>
+                <button class="btn-signin">Sign In</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        
+        <section class="hero-banner">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="hero-tag">Trending #1</span>
+                <h1>Shadow of the Cosmos: Part II</h1>
+                <p>Action, Sci-Fi, Adventure | English | 2h 45m</p>
+                <p class="hero-desc">The cinematic universe expands in an epic battle across galaxies. Experience it in IMAX 3D today.</p>
+                <a href="#" class="btn-cta">Book Tickets</a>
+            </div>
+        </section>
+
+        <section class="container categories-section">
+            <div class="category-card cat-movies">
+                <div class="cat-icon">&#127916;</div>
+                <h3>Movies</h3>
+            </div>
+            <div class="category-card cat-events">
+                <div class="cat-icon">&#127915;</div>
+                <h3>Events</h3>
+            </div>
+            <div class="category-card cat-plays">
+                <div class="cat-icon">&#127917;</div>
+                <h3>Plays</h3>
+            </div>
+            <div class="category-card cat-sports">
+                <div class="cat-icon">&#127941;</div>
+                <h3>Sports</h3>
+            </div>
+            <div class="category-card cat-activities">
+                <div class="cat-icon">&#127920;</div>
+                <h3>Activities</h3>
+            </div>
+            <div class="category-card cat-stream">
+                <div class="cat-icon">&#128187;</div>
+                <h3>Stream</h3>
+            </div>
+        </section>
+
+        <section class="container section">
+            <h2 class="section-title">Recommended Movies</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <div class="poster-container">
+                        <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&auto=format&fit=crop&q=60" alt="Movie Poster" class="movie-poster">
+                        <div class="rating-badge">&#9733; 8.9/10</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Neon Horizon</h3>
+                        <p class="movie-genre">Sci-Fi / Thriller</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="poster-container">
+                        <img src="https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=400&auto=format&fit=crop&q=60" alt="Movie Poster" class="movie-poster">
+                        <div class="rating-badge">&#9733; 9.2/10</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Chronicles of Eldoria</h3>
+                        <p class="movie-genre">Fantasy / Adventure</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="poster-container">
+                        <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=400&auto=format&fit=crop&q=60" alt="Movie Poster" class="movie-poster">
+                        <div class="rating-badge">&#9733; 7.5/10</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Silent Whisper</h3>
+                        <p class="movie-genre">Horror / Mystery</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="poster-container">
+                        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&auto=format&fit=crop&q=60" alt="Movie Poster" class="movie-poster">
+                        <div class="rating-badge">&#9733; 8.4/10</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Love & Autumn</h3>
+                        <p class="movie-genre">Romance / Drama</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="poster-container">
+                        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&auto=format&fit=crop&q=60" alt="Movie Poster" class="movie-poster">
+                        <div class="rating-badge">&#9733; 8.1/10</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Velocity Crew</h3>
+                        <p class="movie-genre">Action / Crime</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="poster-container">
+                        <img src="https://plus.unsplash.com/premium_photo-1669839137069-4166d6ea11f4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=400&auto=format&fit=crop&q=60" alt="Movie Poster" class="movie-poster">
+                        <div class="rating-badge">&#9733; 9.0/10</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Galaxy Explorers</h3>
+                        <p class="movie-genre">Animation / Family</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="poster-container">
+                        <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400&auto=format&fit=crop&q=60" alt="Movie Poster" class="movie-poster">
+                        <div class="rating-badge">&#9733; 7.8/10</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Behind the Curtains</h3>
+                        <p class="movie-genre">Documentary</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="poster-container">
+                        <img src="https://images.unsplash.com/photo-1498946187162-07b3c978b218?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=400&auto=format&fit=crop&q=60" alt="Movie Poster" class="movie-poster">
+                        <div class="rating-badge">&#9733; 8.6/10</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Lost Kingdom</h3>
+                        <p class="movie-genre">Historical / Epic</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section">
+            <h2 class="section-title">Live Events</h2>
+            <div class="horizontal-scroll">
+                <div class="event-horizontal-card">
+                    <img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=400&auto=format&fit=crop&q=60" alt="Event" class="event-horiz-img">
+                    <div class="event-horiz-info">
+                        <span class="event-tag-live">Fast Filling</span>
+                        <h3>Sunburn Arena Music Festival</h3>
+                        <p>&#128197; Sat, 25 Jul onwards</p>
+                        <p>&#128205; Open Ground Exhibition Center</p>
+                    </div>
+                </div>
+                <div class="event-horizontal-card">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&auto=format&fit=crop&q=60" alt="Event" class="event-horiz-img">
+                    <div class="event-horiz-info">
+                        <span class="event-tag-live">Selling Fast</span>
+                        <h3>Rock-On Revival Tour</h3>
+                        <p>&#128197; Fri, 14 Aug</p>
+                        <p>&#128205; City Sports Arena</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section">
+            <h2 class="section-title">Popular Events Near You</h2>
+            <div class="responsive-grid-4">
+                <div class="popular-card">
+                    <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=400&auto=format&fit=crop&q=60" alt="Standup Comedy" class="pop-img">
+                    <div class="pop-info">
+                        <h3>Late Night Comedy Jam</h3>
+                        <p class="pop-sub">Standup Comedy | English</p>
+                        <p class="pop-price">₹ 499 onwards</p>
+                    </div>
+                </div>
+                <div class="popular-card">
+                    <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400&auto=format&fit=crop&q=60" alt="Art Workshop" class="pop-img">
+                    <div class="pop-info">
+                        <h3>Canvas Painting Workshop</h3>
+                        <p class="pop-sub">Arts & Crafts | Hobby</p>
+                        <p class="pop-price">₹ 299 onwards</p>
+                    </div>
+                </div>
+                <div class="popular-card">
+                    <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?w=400&auto=format&fit=crop&q=60" alt="Jazz Night" class="pop-img">
+                    <div class="pop-info">
+                        <h3>Classic Jazz Night</h3>
+                        <p class="pop-sub">Concerts | Music</p>
+                        <p class="pop-price">₹ 799 onwards</p>
+                    </div>
+                </div>
+                <div class="popular-card">
+                    <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&auto=format&fit=crop&q=60" alt="Marathon" class="pop-img">
+                    <div class="pop-info">
+                        <h3>The Independence Run 2026</h3>
+                        <p class="pop-sub">Sports | Marathons</p>
+                        <p class="pop-price">Free Registration</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="premiere-outer">
+            <div class="container section">
+                <div class="premiere-header">
+                    <div class="prem-badge">&#127916; PREMIERE</div>
+                    <h2 class="section-title text-white">New Releases Every Friday</h2>
+                    <p class="section-subtitle">Brand new titles launched directly on your screen</p>
+                </div>
+                <div class="responsive-grid-4">
+                    <div class="movie-card dark-card">
+                        <div class="poster-container">
+                            <img src="https://images.unsplash.com/photo-1533928298208-27ff66555d8d?w=400&auto=format&fit=crop&q=60" alt="Premiere" class="movie-poster">
+                        </div>
+                        <div class="movie-info">
+                            <h3 class="movie-title text-white">The Midnight Rogue</h3>
+                            <p class="movie-genre text-muted">English | Action / Noir</p>
+                        </div>
+                    </div>
+                    <div class="movie-card dark-card">
+                        <div class="poster-container">
+                            <img src="https://images.unsplash.com/photo-1505635552518-3448ff116af3?w=400&auto=format&fit=crop&q=60" alt="Premiere" class="movie-poster">
+                        </div>
+                        <div class="movie-info">
+                            <h3 class="movie-title text-white">Deep Blue Abyss</h3>
+                            <p class="movie-genre text-muted">Hindi | Sci-Fi Thriller</p>
+                        </div>
+                    </div>
+                    <div class="movie-card dark-card">
+                        <div class="poster-container">
+                            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400&auto=format&fit=crop&q=60" alt="Premiere" class="movie-poster">
+                        </div>
+                        <div class="movie-info">
+                            <h3 class="movie-title text-white">Echoes of the Past</h3>
+                            <p class="movie-genre text-muted">Spanish | Drama</p>
+                        </div>
+                    </div>
+                    <div class="movie-card dark-card">
+                        <div class="poster-container">
+                            <img src="https://images.unsplash.com/photo-1543536448-d209d2d13a1c?w=400&auto=format&fit=crop&q=60" alt="Premiere" class="movie-poster">
+                        </div>
+                        <div class="movie-info">
+                            <h3 class="movie-title text-white">Cyberpunk 2099</h3>
+                            <p class="movie-genre text-muted">English | Anime / Action</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-links-grid">
+                <div class="footer-column">
+                    <h3>Movies by Language</h3>
+                    <ul>
+                        <li><a href="#">Hindi Movies</a></li>
+                        <li><a href="#">English Movies</a></li>
+                        <li><a href="#">Telugu Movies</a></li>
+                        <li><a href="#">Tamil Movies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Online Streaming</a></li>
+                        <li><a href="#">Movie Trailers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Help & Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <div class="footer-bottom">
+                <div class="footer-logo">Cine<span>Pass</span></div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">&#120220;</a> <a href="#" class="social-icon">&#120233;</a> <a href="#" class="social-icon">&#120224;</a> <a href="#" class="social-icon">&#120234;</a> </div>
+                <p class="copyright">&copy; 2026 CinePass Entertainment Pvt. Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
